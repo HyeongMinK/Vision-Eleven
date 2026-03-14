@@ -47,6 +47,8 @@
     ↓
 [Full Detection]  — YOLOv11: 소비기한 포함 전체 인쇄 영역 탐지
     ↓
+[Expiry Detection]  — Full 영역 내 소비기한 인쇄 영역 탐지
+    ↓
 [Date Block & Token Detection]  — 연·월·일 단위 토큰 분리·분류 (의미 기반 라벨링: Y4, ENG_MON, NUM2)
     ↓
 [OCR 문자 인식]  — TrOCR (Transformer 기반) 파인튜닝
@@ -58,7 +60,7 @@
 
 #### 1-1. 한국형 소비기한 데이터셋 구축
 
-- 실제 매장 촬영 데이터 + 우수 품질 웹 이미지 수집
+- 실제 매장 촬영 데이터 **3,000장** + 우수 품질 웹 이미지 **1,188장** 수집
 - Dot-matrix 폰트, 불균일 인쇄 품질, 조명 반사 등 국내 편의점 특성 반영
 - **Nano Banana 모델** 기반 AI Inpainting으로 합성 이미지 **900장** 추가 생성 → 모델 일반화 강화
 - 데이터셋 공개: [Korean Expiry Date OCR — Kaggle](https://www.kaggle.com/datasets/kimhyeongminkhu/korean-expiry-date-ocr)
