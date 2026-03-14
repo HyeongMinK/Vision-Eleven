@@ -62,6 +62,7 @@
 - 실제 매장 촬영 데이터 + 우수 품질 웹 이미지 수집
 - Dot-matrix 폰트, 불균일 인쇄 품질, 조명 반사 등 국내 편의점 특성 반영
 - **Nano Banana 모델** 기반 AI Inpainting으로 합성 이미지 **900장** 추가 생성 → 모델 일반화 강화
+- 데이터셋 공개: [Korean Expiry Date OCR — Kaggle](https://www.kaggle.com/datasets/kimhyeongminkhu/korean-expiry-date-ocr)
 
 #### 1-2. Detection 구조 고도화
 
